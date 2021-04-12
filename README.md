@@ -59,10 +59,19 @@ A similar conclusion can be drawn while analyzing each individual lot. The p-val
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+This section is completed as a study design to adress how the MechaCar performs against the competition. Several metrics will have to be compared such as:
+ 
+ - **Price of the MechaCar**: *How competitive and affordable are they and what are the payment options?*
+ - **Fuel-efficiency** : *How does it perform when analyzing the competition?
+ - **The engine type** : *How does the MechaCar perform with regards to gasoline-fueled cars or electric cars? Does it take into consideration contemporary concerns such as the environment and clean living?)*
+- **Safety features**: *How safe is the MechaCar? Is there anything that can be improved to take the user experience to the next level?
 
-In your description, address the following questions:
-What metrics will be to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test should be used to test the hypothesis? And why?
+The null hypothesis would state that MechaCars and cars with similar features and in the same category would have adequate safety ratings. The alternate hypothesis would state that MechaCars would not have the same adequate safety ratings as other cars with similar features and in the same category. 
+
+In terms of statistical tests, I would use a Chi-squared test, and an ANOVA test to obsere the presence or absence of difference in categorical frequencies between groups and to  measure the statistical difference between the distribution means from multiple samples.
+
 What data is needed to run the statistical test?
+Different data would be needed to run the statistical test, such as:
+
+- A list of different kinds of cars and their selling price.
+- Safety features from individual cars.
