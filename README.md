@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-## Purpose of the Analysis 
+## Purpose of the Analysis  
 
 The purpose of this analysis is to review the production data and to provide insights that could help the manufacturing team. In order to accomplish this, multiple linear regression analysis will be performed to identify which variables in the dataset can predict the mpg of MechaCar prototypes and summary statistics on the pounds per square inch (PSI) of the suspension coils will be collected from the manufacturing lots. Finally, t-tests are run to determine if the manufacturing lots are statistically different from the mean population and a statistical study will compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
