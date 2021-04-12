@@ -27,12 +27,35 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![image](https://user-images.githubusercontent.com/75655852/114332408-31145780-9b14-11eb-9cf6-7fcd147bfe82.png)
 
 **Lot Summary Table** 
+
 ![image](https://user-images.githubusercontent.com/75655852/114332512-5dc86f00-9b14-11eb-87f3-ab05902318d1.png)
 
 
 ## T-Tests on Suspension Coils
 
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+The statistical analysis of this section will determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. To achieve this, t-test will be be used to compare all manufacturing lots against mean PSI of the population.
+
+As seen on the Tables provided below, there is a 95 percent confidence interval across all manufacturing lots and the true mean is equal to 1498.78. In addition, the p-value is 0.060, which shows that sufficient evidence to reject the null hypothesis has not been provided.
+
+## All manufacturing lots
+
+![image](https://user-images.githubusercontent.com/75655852/114336564-4772e100-9b1d-11eb-98b9-31d0a9596b79.png)
+
+
+A similar conclusion can be drawn while analyzing each individual lot. The p-value of lot 1 is 1, while the p-value of Lot 2 is indicated to be 0.61. Finally, the p-value of lot 3 is 0.04. Since Lot 1 and Lot 2's p-values are greater than the significance level, they fail to reject the null hypothesis and a statistical difference between these two lots and the population mean can therefore be established. However, lot 3's p-value is smaller than the significance level, and there is consequently sufficient statistical evidence that the null hypothesis is not true, and can be rejected in lot 3's case. This demonstrates that lot 3 and the presumed population mean are not statistically different.
+
+## Lot 1
+
+![image](https://user-images.githubusercontent.com/75655852/114336651-6e311780-9b1d-11eb-9814-c8a77a3dcd0d.png)
+
+## Lot 2
+
+![image](https://user-images.githubusercontent.com/75655852/114336691-81dc7e00-9b1d-11eb-9151-e5a2482f6851.png)
+
+## Lot 3
+
+![image](https://user-images.githubusercontent.com/75655852/114336738-97ea3e80-9b1d-11eb-8f08-46f402520e9c.png)
+
 
 ## Study Design: MechaCar vs Competition
 
