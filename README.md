@@ -20,12 +20,13 @@ The linear model presented would be able to effectively predict the mpg of Mecha
 
 This category of the analysis presents the results from multiple production lots of the dataset provided. The weight capacities of different suspension coils were tested to determine if the manufacturing process is considered consistent across production lots. Two statistical tables were created in order to project the suspension coil’s PSI continuous variable across all manufacturing lots and to analyze PSI metrics such as the mean, median, variance, and standard deviation of each lot.
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. As shown on the tables below, Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. As shown on the Total Summary Table below, the current variance is about 62.29. As this result is within the PSI variance specification of 100, this means that the current manufacturing data meets the design specification for all manufacturing lots in total. Furthermore, Lot 1 and Lot 2 meet the requirements since the variance for both lots are 0.98 and 7.47 respectively. However, the variance for Lot 3 is 170.29, which is above the specified requirement stating that the variance of the suspension coils must not exceed 100 pounds. Lots 1 and 2 therefore seem to be better choices when taking into consideration the design specification for the MechaCar suspension coils.
 
+Total Summary Table
 ![image](https://user-images.githubusercontent.com/75655852/114332408-31145780-9b14-11eb-9cf6-7fcd147bfe82.png)
 
-
-![image](https://user-images.githubusercontent.com/75655852/114332183-afbcc500-9b13-11eb-9b18-cea7318edb04.png)
+Lot Summary Table
+![image](https://user-images.githubusercontent.com/75655852/114332512-5dc86f00-9b14-11eb-87f3-ab05902318d1.png)
 
 
 ## T-Tests on Suspension Coils
