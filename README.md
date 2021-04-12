@@ -64,7 +64,7 @@ This section is completed as a study design to adress how the MechaCar performs 
  - **The price of the MechaCar**: *How competitive and affordable are they and what are the payment options?*
  - **Fuel-efficiency** : *How does it perform when analyzing the competition?*
  - **The engine type** : *How does the MechaCar perform with regards to gasoline-fueled cars or electric cars? Does it take into consideration contemporary concerns such as the environment and clean living?*
-- **Safety features**: *How safe is the MechaCar? Is there anything that can be improved to take the user experience to the next level?
+- **Safety features**: *How safe is the MechaCar? Is there anything that can be improved to take the user experience to the next level?*
 
 The null hypothesis would state that MechaCars and cars with similar features and in the same category would have adequate safety ratings. The alternate hypothesis would state that MechaCars would not have the same adequate safety ratings as other cars with similar features and belonging to the same category. 
 
