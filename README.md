@@ -14,7 +14,7 @@ In the first part of the analysis, R is used to design a linear model that predi
 
 2- The slope of the linear model is not considered to be zero because of the the presence of a non-random amount of variance in the data set. Since there is enough evidence to conclude that the the null hypothesis is not true and should be rejected, the slope of the linear model is not equal to zero. If the null hypothesis had been confirmed and no relationship between the independent variable and the dependent variable was found, then the linear regression would have been equal to zero. 
 
-The linear model presented would be able to effectively predict the mpg of MechaCar prototypes. Since the r-squared value of the linear model is 0.7149, the mpg could be predicted accurately by 71%. This confirms that the predictions of the linear model can be effective.
+3- The linear model presented would be able to effectively predict the mpg of MechaCar prototypes. Since the r-squared value of the linear model is 0.7149, the mpg could be predicted accurately by 71%. This confirms that the predictions of the linear model can be effective.
 
 ## Summary Statistics on Suspension Coils
 
