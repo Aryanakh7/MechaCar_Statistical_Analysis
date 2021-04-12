@@ -4,14 +4,21 @@
 
 The purpose of this analysis is to review the production data and to provide insights that could help the manufacturing team. In order to accomplish this, multiple linear regression analysis will be performed to identify which variables in the dataset can predict the mpg of MechaCar prototypes and summary statistics on the pounds per square inch (PSI) of the suspension coils will be collected from the manufacturing lots. Finally, t-tests are run to determine if the manufacturing lots are statistically different from the mean population and a statistical study will compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
-
 ## Linear Regression to Predict MPG
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+In the first part of the analysis, R is used to design a linear model that predicts the mpg of MechaCar prototypes using several variables from the data provided. The metrics used to complete this section are vehicle length, vehicle weight, spoiler angle, ground clearance, and all wheel drive (AWD) variables. Based on the linear regressions provided, several observations could be made:
+
+1- The variables that provided a non-random amount of variance to the mpg values in the dataset were vehicle length and ground clearance. Since these two variables have a very small p-value respectively of 2.60e-12 and 5.21e-08, they produce a greater impact on the MechaCar prototype and have a higher level of significance. In this case, the p-value of these variables is smaller than the significance level, and there is therefore  sufficient statistical evidence to state that the null hypothesis is not true and should be rejected. However, the vehicle weight, spoiler angle and AWD have a random amount of variance to the mpg values as their p-value is larger than the significance level.
+
+![image](https://user-images.githubusercontent.com/75655852/114327522-6797a580-9b07-11eb-9fee-706be088d5f6.png)
+
+2- The slope of the linear model is not considered to be zero because of the the presence of a non-random amount of variance in the data set. Since there is enough evidence to conclude that the the null hypothesis is not true and should rejected, the slope of the linear model is not equal to zero. If the null hypothesis had been confirmed and no relationship between the independent variable and the dependent variable was found, then the linear regression would have been equal to zero. 
+
+The linear model presented would be able to effectively predict the mpg of MechaCar prototypes. Since the r-squared value of the linear model is 0.7149, the mpg could be predicted accurately by 71%. This confirms that the predictions of the linear model can be effective.
 
 ## Summary Statistics on Suspension Coils
+
+This category of the analysis presents the results from multiple production lots of the dataset provided. The weight capacities of different suspension coils were tested to determine if the manufacturing process is considered consistent across production lots. Two statistical tables were created in order to project the suspension coil’s PSI continuous variable across all manufacturing lots and to analyze PSI metrics such as the mean, median, variance, and standard deviation of each lot.
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
